@@ -1,0 +1,17 @@
+.image {
+    width: 100%;
+    max-width: 1024px;
+    animation: appear 500ms ease-out;
+}
+
+@keyframes appear {
+    from {
+        width: 8px;
+        height: 8px;
+    }
+
+    to {
+        width: 100%;
+        height: auto;
+    }
+}
